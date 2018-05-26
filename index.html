@@ -8,6 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 </head>
 
 <body>
@@ -46,24 +48,24 @@
             
             <div class="form-group">
                 <label for="exampleFormControlInput1">Employee Name</label>
-                <input id="name-input"type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                <input id="name-input"type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
             </div>
 
             <div class="form-group">
                 <label for="exampleFormControlInput1">Role</label>
-                <input id="role-input"type="email" class="form-control" id="exampleFormControlInput1" placeholder="CEO">
+                <input id="role-input"type="role" class="form-control" id="exampleFormControlInput1" placeholder="CEO">
             </div>
 
             <div class="form-group">
                 <label for="exampleFormControlInput1">Start Date (DD/MM/YY)</label>
-                <input id="date-input"type="email" class="form-control" id="exampleFormControlInput1" placeholder="17/01/11">
+                <input id="date-input" class="form-control" id="exampleFormControlInput1" placeholder="17/01/11">
             </div>
             
             <div class="form-group">
                 <label for="exampleFormControlInput1">Monthly Rate</label>
-                <input id="rate-input"type="email" class="form-control" id="exampleFormControlInput1" placeholder="5000">
+                <input id="rate-input"type="rate" class="form-control" id="exampleFormControlInput1" placeholder="5000">
             </div>
-            <button class="btn btn-primary">Submit</button>
+            <button id="submit-btn" class="btn btn-primary">Submit</button>
             
         </form>
     </div>
@@ -76,6 +78,7 @@
             crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
             crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
